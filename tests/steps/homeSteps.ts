@@ -17,7 +17,7 @@ let page: Page;
 let geHome: GeHome;
 
 Before(async () => {
-  // headless: false permite que você acompanhe a execução visualmente
+  
   browser = await chromium.launch({ headless: false }); 
   page = await browser.newPage();
   geHome = new GeHome(page);
