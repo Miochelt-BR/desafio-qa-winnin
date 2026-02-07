@@ -1,28 +1,24 @@
-<<<<<<< HEAD
-# Dependências (Nunca suba a node_modules!)
+# Dependências
 node_modules/
 
-# Relatórios do Playwright
-test-results/
+# Relatórios de Testes (Playwright)
 playwright-report/
+test-results/
 blob-report/
 playwright/.cache/
 
-# Arquivos de Sistema e Logs
+# Relatórios de Testes (Cucumber)
+cucumber-report.html
+
+# Variáveis de Ambiente e Segredos
+.env
+.env.*
+
+# Logs do Sistema
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ficheiros do Sistema Operativo
 .DS_Store
-
-# Variáveis de ambiente (Se você criar um .env no futuro)
-.env
-=======
-
-# Playwright
-node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
->>>>>>> 9476118a5045e451f331d708fbb2d5e1d9c63d98
+Thumbs.db
