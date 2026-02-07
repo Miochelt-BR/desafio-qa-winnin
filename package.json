@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "cucumber": "cucumber-js tests/features/*.feature --loader ts-node/esm --import tests/steps/*.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Miochelt-BR/desafio-qa-winnin.git"
@@ -11,13 +14,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Miochelt-BR/desafio-qa-winnin/issues"
   },
   "homepage": "https://github.com/Miochelt-BR/desafio-qa-winnin#readme",
   "devDependencies": {
-    "@playwright/test": "^1.58.1",
-    "@types/node": "^25.2.0"
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
   }
 }

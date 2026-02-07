@@ -5,11 +5,12 @@ export class BasePage {
   readonly baseUrl: string = 'https://ge.globo.com';
 
   constructor(page: Page) {
-    
     this.page = page;
   }
 
   async navegar() {
-    await this.page.goto(this.baseUrl);
+    await this.page.goto(this.baseUrl, {
+      waitUntil: 'domcontentloaded'
+    });
   }
 }
