@@ -21,8 +21,9 @@
   "homepage": "https://github.com/Miochelt-BR/desafio-qa-winnin#readme",
   "devDependencies": {
     "@cucumber/cucumber": "^12.6.0",
+    "@faker-js/faker": "^10.3.0",
     "@playwright/test": "^1.50.1",
-    "@types/node": "^22.0.0",
+    "@types/node": "^22.19.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.0.0"
   }
