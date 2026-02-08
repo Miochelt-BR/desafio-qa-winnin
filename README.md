@@ -1,5 +1,5 @@
 Relatório de Engenharia de Qualidade: Ecossistema GE & API ServeRest
-Planejamento e Execução: Thiago (QA Automation Engineer)
+Planejamento e Execução: Thiago (QA Analista de Testes)
 
 Data de Entrega: 09 de Fevereiro de 2026
 
